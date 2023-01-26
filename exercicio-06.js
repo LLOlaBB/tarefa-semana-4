@@ -24,14 +24,11 @@ const trabalhadores = [
 		cargo: "Consultor financeiro",
 	},
 ];
-var empregado = [];
-for (let i = 0; i <trabalhadores.length; i++) { 
-	
-	for (let j = 0; j <trabalhadores.length; j++){
-		var maiorSalario = trabalhadores[i].salario_bruto;
-		if (trabalhadores[j].salario_bruto>=maiorSalario){
-			empregado[0] = trabalhadores[j];
-		}
-	}
+let maiorSalario = trabalhadores[0];
+
+for (let i = 1; i < trabalhadores.length; i++) {
+  if (trabalhadores[i].salario_bruto > maiorSalario.salario_bruto) {
+    maiorSalario = trabalhadores[i];
+  }
 }
-alert(`O Empregado com maior salario é o ${empregado[0].cargo} ${empregado[0].nome} com salario de ${empregado[0].salario_bruto}`);  
+alert(`O Empregado com maior salario é o ${maiorSalario.cargo} ${maiorSalario.nome} com salario de ${maiorSalario.salario_bruto}`);  
