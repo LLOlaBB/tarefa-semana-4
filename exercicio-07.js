@@ -8,4 +8,4 @@
 let numero = prompt("Digite o numero:");
 let porcentagem = prompt("Digite a porcentagem:");
 let result = numero * (porcentagem/100);
-alert(`${porcentagem}% de ${numero} é ${result}`); 
+alert(`${porcentagem}% de ${numero} é ${result}`);  

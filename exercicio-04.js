@@ -19,6 +19,6 @@ else if(result>=5 && result<=7){
     alert(`Aluno aprovado com nota: ${result}`);
 }
 else if(result>7){
-    alert(`Aluno aprovado com ótimo aproveitamento com nota: ${result}`); 
+    alert(`Aluno aprovado com ótimo aproveitamento com nota: ${result}`);  
 }
 

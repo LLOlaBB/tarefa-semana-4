@@ -44,7 +44,7 @@ switch (mes) {
         alert(mes + " possui 30 dias");
         break;
     case "outubro":
-        alert(mes + " possui 31 dias"); 
+        alert(mes + " possui 31 dias");  
         break;
     case "novembro":
         alert(mes + " possui 30 dias");

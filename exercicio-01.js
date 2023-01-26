@@ -6,5 +6,5 @@ if(entrada%2==0){
     alert(`O numero ${entrada} é par.`);
 }
 else{
-    alert(`O numero ${entrada} é impar.`); 
+    alert(`O numero ${entrada} é impar.`);  
 }

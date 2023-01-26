@@ -17,4 +17,4 @@ let texto = "";
     for(var i=1; i<=10 ; i++){
      texto = texto + numero +" x "+i+" = " + (numero*i)+ "\n";
 }
-alert(texto);
+alert(texto); 
