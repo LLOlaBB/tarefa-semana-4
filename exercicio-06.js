@@ -34,4 +34,4 @@ for (let i = 0; i <trabalhadores.length; i++) {
 		}
 	}
 }
-alert(`O Empregado com maior salario é o ${empregado[0].cargo} ${empregado[0].nome} com salario de ${empregado[0].salario_bruto}`);
+alert(`O Empregado com maior salario é o ${empregado[0].cargo} ${empregado[0].nome} com salario de ${empregado[0].salario_bruto}`); 

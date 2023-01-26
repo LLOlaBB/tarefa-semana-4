@@ -30,5 +30,5 @@ alert("minha mensagem");//abre uma caixa simples com o texto entre aspas
  *  - não se preocupe em errar ou fazer pela metade, iremos analisar o código feito em aula e corrigir;
  *  - façam duplas ou grupos para concluir os exercícios se for preciso, mas é importante que não fiquem totalmente iguais para termos o máximo de raciocínios possíveis;
  *  - façam commit e push somente em sua branch, cuidado na hora de commitar em outra branch que nao seja a sua;
- *  - cada exercício solicita algo específico mas fique a vontade para melhorar o código com validações, mais informações, etc.;
+ *  - cada exercício solicita algo específico mas fique a vontade para melhorar o código com validações, mais informações, etc.; 
  */

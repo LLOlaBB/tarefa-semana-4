@@ -13,5 +13,5 @@ while (i>1){
 alert(`O fatorial de ${numero} é ${fatorial}`);
 }
 else{
-    alert("Numero fora do escopo.");
+    alert("Numero fora do escopo."); 
 }

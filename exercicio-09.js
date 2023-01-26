@@ -12,7 +12,7 @@
  * 1 x 9 = 9
  * 1 x 10 = 10
 */
-let numero = prompt("Digite o numero:");
+let numero = prompt("Digite o numero:"); 
 let texto = "";
     for(var i=1; i<=10 ; i++){
      texto = texto + numero +" x "+i+" = " + (numero*i)+ "\n";
