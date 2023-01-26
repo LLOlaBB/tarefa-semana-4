@@ -6,8 +6,8 @@
 let nome = prompt("Digite seu nome:");
 let idade = prompt("Digite sua idade:");
 if(idade<18){
-    alert(nome +" é menor de idade");
+    alert(`${nome} é menor de idade`);
 }
 else{
-    alert(nome +" é maior de idade");
+    alert(`${nome} é maior de idade`);
 }

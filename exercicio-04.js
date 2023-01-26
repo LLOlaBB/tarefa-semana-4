@@ -10,15 +10,15 @@ let numero2 = prompt("Digite o segundo numero:");
 let numero3 = prompt("Digite o terceiro numero:");
 let result = (parseInt(numero1)+parseInt(numero2)+parseInt(numero2))/3;
 if(result<=1){
-    alert("Aluno Reprovado com nota: " + result);
+    alert(`Aluno Reprovado com nota: ${result}`);
 }
 else if(result>=1 && result<=4){
-    alert("Aluno em recuperação com nota: " + result);
+    alert(`Aluno em recuperação com nota: ${result}`);
 }
 else if(result>=5 && result<=7){
-    alert("Aluno aprovado com nota: " + result);
+    alert(`Aluno aprovado com nota: ${result}`);
 }
 else if(result>7){
-    alert("Aluno aprovado com ótimo aproveitamento com nota: " + result);
+    alert(`Aluno aprovado com ótimo aproveitamento com nota: ${result}`);
 }
 

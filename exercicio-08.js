@@ -10,7 +10,7 @@ while (i>1){
     i--;
     fatorial *= i;
 }
-alert("O fatorial de " + numero + " é "+fatorial);
+alert(`O fatorial de ${numero} é ${fatorial}`);
 }
 else{
     alert("Numero fora do escopo.");
