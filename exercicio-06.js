@@ -31,4 +31,4 @@ for (let i = 1; i < trabalhadores.length; i++) {
     maiorSalario = trabalhadores[i];
   }
 }
-alert(`O Empregado com maior salario é o ${maiorSalario.cargo} ${maiorSalario.nome} com salario de ${maiorSalario.salario_bruto}`);  
+alert(`O Empregado com maior salario é o ${maiorSalario.cargo} ${maiorSalario.nome} com salario de ${maiorSalario.salario_bruto}`);   
